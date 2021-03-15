@@ -1,5 +1,5 @@
 add_action('wp_logout','ps_redirect_after_logout');
 function ps_redirect_after_logout(){
-         wp_redirect( 'http://onedotm.net/demo/carefinder/final/' );
+         wp_redirect( 'http://domainname.net/page-name/' );
          exit();
 }
